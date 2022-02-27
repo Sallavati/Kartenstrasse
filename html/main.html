@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../bilder/icon.png">
+    <meta charset="utf-8"/>
+</head>
+
+<body>
+	 <script src="../js/script.js"></script>
+    <header>
+    <h1>Kartenstraße <img class="zeichen" src="../bilder/zeichen.svg"></h1>
+        <section class="navbar">
+            <a href="#ueber">Über</a>
+            <a href="#wasdubrauchst">Was du benötigst</a>
+            <a href="#regeln">Regeln</a>
+            <a href="#story">Geschichte</a>
+        </section>
+    </header>
+    <section class="about">
+        <h2 id="ueber">Über</h2>
+        <p>
+            Kartenstraße ist ein Trinkspiel, bei welchem mit... Lorem ipsum dolor, sit amet consectetur adipisicing
+            elit. Alias aut numquam cumque ad saepe, sunt voluptatem quas voluptate repellat, deserunt vero. Aliquid
+            sunt, quis nesciunt mollitia obcaecati quae porro magnam.
+        </p>
+    </section>
+    <div class="linie"></div>
+    <section class="whatyouneed">
+        <h2 id="wasdubrauchst">Was du zum Spielen brauchst:</h2>
+        <ul>
+            <li>Spielfiguren (oder etwas ähnliches, wie z.B. Münzen)</li>
+            <li>2 Würfel</li>
+            <li>Skat-Kartendeck (32 Karten)</li>
+            <li>Getränke</li>
+        </ul>
+    </section>
+    <div class="linie"></div>
+    <section class="groundrules">
+        <h2 id="regeln">Regeln</h2>
+        <h3>Aufbau</h3>
+        <ul>
+            <li>Das Deck sollte gemischt sein.</li>
+            <li>Die Karten werden verdeckt straßenförmig auf dem Tisch ausgebreitet um das Spielfeld zu bilden.</li>
+            <li>Vor der ersten Karte und nach der Letzten sind die Start/Ziel Felder festgelegt.</li>
+            <li>Die Spielfiguren werden zunächst alle auf dem Startfeld aufgestellt.</li>
+        </ul>
+        <h3>Grundregeln</h3>
+        <ul>
+            <li>Der jenige mit dem wenigsten im Glas fängt an.</li>
+            <li>Wer an der Reihe ist würfelt zunächst mit einem der Würfel und darf sich dann der Augenzahl entsprechend auf dem Spielfeld bewegen.</li>
+            <li>Ist die Karte auf der die Spielfigur landet noch verdeckt, wird diese umgedreht und eine wie unten beschriebene Aktion ausgeführt.</li>
+            <li>Ist die Karte bereits umgedreht, wird die Aktion dennoch erneut ausgeführt.</li>
+            <li>Gewonnen hat, wer als erstes das Ziel erreicht. Jedoch muss dieses Genau erreicht werden.</li>
+        </ul>
+    </section>
+    <section class="cards">
+        <h3>Bedeutungen der Karten</h3>
+        <p>Die Bedeutung der Karte hängt nur von derem Wert ab, nicht der Farbe. (Ausnahme nachdem das erste Ass gefallen ist.)</p>
+        <div class="flexcards">
+            <button onclick="toggle('ass')" name="cards" id="ass">
+                <img class="cardimg" id ="asspic" src="../bilder/karten/ass.svg">
+                <img class="cardimg explenation" id ="assexp" src="../bilder/erklaerungen/ass.svg">
+            </button>
+            <button onclick="toggle('king')" name="cards" id="king">
+                <img class="cardimg" id ="kingpic" src="../bilder/karten/king.svg">
+                <img class="cardimg explenation" id ="kingexp" src="../bilder/erklaerungen/king.svg">
+            </button>
+            <button onclick="toggle('queen')" name="cards" id="queen">
+                <img class="cardimg" id ="queenpic" src="../bilder/karten/queen.svg">
+                <img class="cardimg explenation" id ="queenexp" src="../bilder/erklaerungen/queen.svg">
+            </button>
+            <button onclick="toggle('jack')" name="cards" id="jack">
+                <img class="cardimg" id ="jackpic" src="../bilder/karten/jack.svg">
+                <img class="cardimg explenation" id ="jackexp" src="../bilder/erklaerungen/jack.svg">
+            </button>
+            <button onclick="toggle('10')" name="cards" id="10">
+                <img class="cardimg" id ="10pic" src="../bilder/karten/10.svg">
+                <img class="cardimg explenation" id ="10exp" src="../bilder/erklaerungen/10.svg">
+            </button>
+            <button onclick="toggle('9')" name="cards" id="9">
+                <img class="cardimg" id ="9pic" src="../bilder/karten/9.svg">
+                <img class="cardimg explenation" id ="9exp" src="../bilder/erklaerungen/9.svg"> 
+            </button>
+            <button onclick="toggle('8')" name="cards" id="8">
+                <img class="cardimg" id ="8pic" src="../bilder/karten/8.svg">
+                <img class="cardimg explenation" id ="8exp" src="../bilder/erklaerungen/8.svg">
+            </button>
+            <button onclick="toggle('7')" name="test" id="7">
+                <img class="cardimg" id ="7pic" src="../bilder/karten/7.svg">
+                <img class="cardimg explenation" id ="7exp" src="../bilder/erklaerungen/7.svg">
+            </button>
+        </div>
+    </section>
+    <section class="Entstehungsgeschichte">
+        <h2 id="story">Entstehungsgeschichte</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique cupiditate numquam tempora fugiat. 
+            Ut unde, perferendis atque officia explicabo est cupiditate labore adipisci sequi. 
+            Iure atque libero quo minima voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Explicabo nemo at adipisci? Ratione, consequuntur omnis, adipisci nulla ipsum eveniet rerum illum 
+            laboriosam fuga quam exercitationem recusandae, molestiae numquam mollitia voluptatibus.
+        </p>
+    </section>
+</body>
+</html>
