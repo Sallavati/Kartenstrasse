@@ -95,6 +95,13 @@ header a:hover{
     line-height: 1.3em;
 }
 
+#diekartenstrasse {
+    /* padding-top: 0.01em;
+    padding-top: 0.1em; */
+    font-size: 1.6em;
+    text-decoration: bold;
+}
+
 .linie{
     width: 100vw;
     height: 1em;
